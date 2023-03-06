@@ -1,0 +1,7 @@
+figma - https://www.figma.com/file/twasy8Bca4hW7gunLFSLoY/Color-Scheme-Generator?node-id=2%3A1155
+
+colors - https://www.thecolorapi.com/docs#schemes-generate-scheme-get
+
+icon-modal - <i class="fa-duotone fa-check"></i>
+
+icon-buton - <i class="fa-regular fa-angle-down"></i>
