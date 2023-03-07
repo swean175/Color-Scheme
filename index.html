@@ -9,49 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/main.css" rel="stylesheet">
     <title>Color Scheme Generator</title>
+    <script src="index.js" defer></script>
 </head>
+
 <body>
 
-  
-
     <header>
-        <input class="color" type="color" value="#F55A5A"></input>
-        <button id="drop" class="drop"><h3>Monochrome</h3><img class="arrow" src="/arow-down..svg"> </button>
+        <input id="color" class="color" type="color" value=""></input>
+        <button id="drop" class="drop"> </button>
         <button id="get" class="get">Get Color Scheme</button>
     </header>
 
-
-
-    <div class="modal">
-
-        <div class="selected">
-            <h3><strong>Monochrome</strong></h3>
-            <h3>✔</h3>
-        </div>
-   <h3>Monochrome-dark</h3>
-   <h3>Monochrome-light</h3>
-   <h3>Analogic</h3>
-   <h3>Complement</h3>
-   <h3>Analogic-complament</h3>
-   <h3>Triad</h3>
-
+    <div id="modal" class="modal">
     </div>
 
-
-    <main>
-<div id="1"></div>
-<div id="2"></div>
-<div id="3"></div>
-<div id="4"></div>
-<div id="5"></div>
+    <main id="main" >
     </main>
-    <footer>
-        <h4 id="1">#F55A5A</h4>
-        <h4 id="2">#2B283A</h4>
-        <h4 id="3">#FBF3AB</h4>
-        <h4 id="4">#AAD1B6</h4>
-        <h4 id="5">#A626D3</h4>
-    </footer>
 
+    <footer>
+        <h4 id="1"></h4>
+        <h4 id="2"></h4>
+        <h4 id="3"></h4>
+        <h4 id="4"></h4>
+        <h4 id="5"></h4>
+    </footer>
+    
 </body>
 </html>
